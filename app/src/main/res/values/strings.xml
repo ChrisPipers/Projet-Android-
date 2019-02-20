@@ -1,0 +1,67 @@
+<resources>
+    <string name="textv_login">Connectez-vous à votre comtpe</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="app_name">Arrived</string>
+
+    <!-- activity_mode_and_meteo -->
+    <string name="title_activity_home"> Home </string>
+    <string name="textv_mode">Quel(s) mode(s) avez vous utilisez ? </string>
+    <string name="textv_meteo">Quelle est la météo lors de votre trajet ? </string>
+    <string name="notif">Ok c est ok</string>
+    <string name="button_next_home">Suivant > </string>
+
+    <!-- activity_Localisation -->
+    <string name="title_activity_localisation"> Localisation </string>
+    <string name="textv_rue_bd_av">Rue, Bd, Av :  </string>
+    <string name="textv_numero">Numéro :  </string>
+    <string name="textv_boite">Boite :  </string>
+    <string name="textv_code">Code postal :  </string>
+    <string name="textv_localite">Localité :  </string>
+    <string name="but_val_pos">Valider position</string>
+    <string name="but_reloard_pos">Recharger position</string>
+
+    <string name="service_not_available">service_not_available</string>
+    <string name="invalid_lat_long_used">invalid_lat_long_used</string>
+    <string name="no_address_found">no_address_found</string>
+    <string name="address_found"> </string>
+
+    <string name="mapKey">AIzaSyAHhBGndBvSZKe6fq_v9m7n_OPBZ2MIcrA</string>
+
+
+
+
+    <!-- activity_register -->
+    <string name="title_activity_register"> S enregister </string>
+    <string name="edit_email_text"> E-mail </string>
+    <string name="edit_pwd_text"> Mot de passe </string>
+    <string name="edit_name_text" > Nom </string>
+    <string name="edit_l_name_text"> Prenom </string>
+    <string name="edit_age_text"> Age </string>
+    <string name="radio_f_text"> F </string>
+    <string name="radio_m_text"> M </string>
+    <string name="but_regis"> S enregistrer </string>
+
+
+
+    <!-- activity_login -->
+    <string name="title_activity_login"> Login </string>
+
+
+    <!-- main_menu -->
+    <string name="item_menu">Menu</string>
+    <string name="item_profil">Mon profil</string>
+    <string name="item_pers_stat">Mes stat.</string>
+    <string name="item_glob_stat">Global stat.</string>
+    <string name="home_menu">Home</string>
+    <string name="deconnection"> Deconnexion</string>
+
+    <!-- fragment_choix -->
+    <string name="but_frag_loc">Enregistrer une arrivée</string>
+    <string name="but_frag_consp">Consulter mes stat.</string>
+    <string name="but_frag_consg">Consulter stat. global</string>
+    <string name="radio_mode_p">Mode</string>
+    <string name="radio_meteo_p">Meteo</string>
+
+
+</resources>
+

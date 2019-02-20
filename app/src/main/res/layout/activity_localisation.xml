@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/textv_pres_rue"
+            android:text="@string/textv_rue_bd_av"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textv_rue"
+            android:layout_toRightOf="@id/textv_pres_rue"
+            android:text=""
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/textv_pres_numero"
+            android:text="@string/textv_numero"
+            android:layout_below="@id/textv_pres_rue"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_below="@id/textv_pres_rue"
+            android:layout_toRightOf="@id/textv_pres_numero"
+            android:id="@+id/textv_numero"
+            android:text=""
+            android:textSize="20dp"
+            />
+
+
+
+
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            android:id="@+id/textv_pres_codepostal"
+            android:text="@string/textv_code"
+            android:layout_below="@id/textv_pres_numero"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+
+            android:id="@+id/textv_codepostal"
+            android:layout_below="@id/textv_numero"
+            android:layout_toRightOf="@id/textv_pres_codepostal"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textv_pres_localite"
+            android:text="@string/textv_localite"
+            android:layout_below="@id/textv_pres_codepostal"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textv_localite"
+            android:layout_below="@id/textv_codepostal"
+            android:layout_toRightOf="@id/textv_pres_localite"
+            android:text=""
+
+            android:textSize="20dp"
+            />
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/map"
+            tools:context="com.openclassroom.arrived.LocalisationActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_centerInParent="true"
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/but_validate_pos"
+            android:text="@string/but_val_pos"
+            android:layout_below="@id/map"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+
+            />
+        <!--
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/but_reload_pos"
+            android:text="@string/but_reloard_pos"
+            android:layout_below="@id/but_validate_pos"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+
+            />
+-->
+</RelativeLayout>

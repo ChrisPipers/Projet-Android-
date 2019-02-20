@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp"
+    android:background="@drawable/option_button"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/but_enr_location"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/but_frag_loc" />
+
+
+    <Button
+        android:id="@+id/but_cons_pers"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/but_frag_consp" />
+<!--
+    <Button
+        android:id="@+id/but_cons_glob"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/but_frag_consg" />
+-->
+</LinearLayout>

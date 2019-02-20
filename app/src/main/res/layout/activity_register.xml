@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/edit_email_text"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:inputType="textEmailAddress"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_pwd"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@id/edit_email"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:hint="@string/edit_pwd_text"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@id/edit_pwd"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/edit_name_text"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_l_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@id/edit_name"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:hint="@string/edit_l_name_text"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_age"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_below="@id/edit_l_name"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:hint="@string/edit_age_text"
+                android:inputType="number"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/radio_groupe"
+                android:layout_below="@id/edit_age"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/radio_f_text" />
+
+                <RadioButton
+                    android:id="@+id/radio_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/radio_m_text" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/but_regis"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_below="@id/radio_groupe"
+                android:layout_centerHorizontal="true"
+                android:text="@string/but_regis"
+                />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@id/but_regis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

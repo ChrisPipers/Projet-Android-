@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/radio_groupe_p"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/radio_mode_p"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio_meteo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/radio_meteo_p" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_mode"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_type"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+    </RelativeLayout>
+</LinearLayout>

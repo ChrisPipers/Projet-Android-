@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu"
+        android:title="@string/item_menu">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- Code
+            <item android:id="@+id/profil" android:title="@string/item_profil"></item>
+            <item android:id="@+id/resume" android:title="@string/item_resume"></item>
+            -->
+
+            <item
+                android:id="@+id/home"
+                android:icon="@mipmap/ic_menu_view"
+                android:title="@string/home_menu">
+
+            </item>
+
+            <item
+                android:id="@+id/deconnection"
+                android:icon="@mipmap/ic_menu_view"
+                android:title="@string/deconnection"></item>
+
+
+            <!--
+                    <item
+                        android:id="@+id/pers_stat"
+                        android:title="@string/item_pers_stat"
+                        android:icon="@mipmap/ic_menu_view"></item>
+                    <item
+                        android:id="@+id/pers_glob"
+                        android:title="@string/item_glob_stat"
+                        android:icon="@mipmap/ic_menu_allfriends"></item>
+            -->
+        </menu>
+    </item>
+</menu>

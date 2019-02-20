@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.openclassroom.arrived.ModeAndMeteoActivity"
+ >
+
+    <TextView
+        android:id="@+id/text_v_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/textv_mode"
+        />
+
+    <GridView
+        android:id="@+id/grid_view_mode"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/text_v_mode"
+        android:verticalSpacing="14dp"
+        android:horizontalSpacing="4dp"
+        android:padding="10dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/option_button"
+        android:numColumns="3">
+    </GridView>
+
+    <TextView
+        android:id="@+id/text_v_meteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/text_v_mode"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/textv_meteo"
+        />
+
+    <GridView
+        android:id="@+id/grid_view_meteo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_below="@id/text_v_meteo"
+        android:layout_alignParentRight="true"
+
+        android:verticalSpacing="14dp"
+        android:horizontalSpacing="4dp"
+
+        android:layout_marginRight="74dp"
+        android:background="@drawable/option_button"
+        android:numColumns="2">
+    </GridView>
+
+    <Button
+        android:id="@+id/button_home_comfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next_home"
+        android:layout_below="@id/grid_view_meteo"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        />
+
+</RelativeLayout>
